@@ -226,6 +226,7 @@ $names = [
       'Чо Ынён', 'Хан Донхён', 'Юн Соджин', 'Ким Тхэу', 'Ли Миён'
     ];
 
+//
 $players = [];
 foreach($names as $name){
     $players[] = new Player($name);
